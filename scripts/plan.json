@@ -1,0 +1,47 @@
+{
+ "0": [
+  "use hall.e -> dining.w",
+  "use dining.w -> library.s",
+  "use library.n -> dining.e",
+  "use dining.w -> library.s",
+  "use library.n -> mirrors.s"
+ ],
+ "1": [
+  "use mirrors.e -> library.s",
+  "light library.n",
+  "use library.n -> mirrors.e",
+  "use mirrors.e -> hall.w",
+  "use hall.w -> library.e",
+  "use library.n -> mirrors.e",
+  "use mirrors.e -> clock.s"
+ ],
+ "2": [
+  "use clock.s -> gallery.n",
+  "light gallery.n",
+  "use gallery.n -> cellar.e",
+  "light cellar.e",
+  "use cellar.e -> clock.e",
+  "use clock.s -> gallery.n",
+  "use gallery.n -> cellar.e",
+  "use cellar.e -> clock.e",
+  "use clock.e -> crypt.n"
+ ],
+ "3": [
+  "record echo",
+  "use crypt.s -> ballroom.s",
+  "use ballroom.n -> upper.s"
+ ],
+ "4": [
+  "use upper.w -> dining.e",
+  "use dining.e -> kitchen.w",
+  "use kitchen.s -> cellar.n",
+  "light cellar.e",
+  "use cellar.e -> upper.w",
+  "use upper.s -> crypt.s",
+  "use crypt.n -> cellar.n",
+  "use cellar.e -> upper.w",
+  "record echo",
+  "use upper.e -> atticstair.s",
+  "use atticstair.n -> attic.s"
+ ]
+}

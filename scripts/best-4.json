@@ -1,0 +1,41 @@
+{
+ "score": 22.2,
+ "len": 11,
+ "noCandleLen": 999,
+ "steps": [
+  "use upper.w -> dining.e",
+  "use dining.e -> kitchen.w",
+  "use kitchen.s -> cellar.n",
+  "light cellar.e",
+  "use cellar.e -> upper.w",
+  "use upper.s -> crypt.s",
+  "use crypt.n -> cellar.n",
+  "use cellar.e -> upper.w",
+  "record echo",
+  "use upper.e -> atticstair.s",
+  "use atticstair.n -> attic.s"
+ ],
+ "cycles": {
+  "upper.n": [
+   "library.n",
+   "cellar.e",
+   "gallery.e"
+  ],
+  "upper.w": [
+   "dining.e",
+   "library.e"
+  ],
+  "upper.e": [
+   "library.n",
+   "atticstair.s"
+  ],
+  "clock.e": [
+   "hall.w",
+   "gallery.e"
+  ],
+  "cellar.e": [
+   "library.s",
+   "upper.w"
+  ]
+ }
+}

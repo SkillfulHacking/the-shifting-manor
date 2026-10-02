@@ -1,0 +1,35 @@
+{
+ "score": 3.6999999999999997,
+ "len": 11,
+ "noCandleLen": 999,
+ "steps": [
+  "use mirrors.s -> hall.w",
+  "use hall.w -> library.e",
+  "light library.n",
+  "use library.n -> gallery.w",
+  "use gallery.e -> library.w",
+  "use library.n -> gallery.w",
+  "light gallery.n",
+  "use gallery.e -> library.w",
+  "use library.n -> gallery.w",
+  "use gallery.n -> mirrors.s",
+  "use mirrors.e -> clock.s"
+ ],
+ "cycles": {
+  "mirrors.e": [
+   "kitchen.s",
+   "clock.s",
+   "hall.w"
+  ],
+  "gallery.n": [
+   "library.n",
+   "kitchen.s",
+   "mirrors.s"
+  ],
+  "library.n": [
+   "gallery.w",
+   "kitchen.s",
+   "hall.w"
+  ]
+ }
+}

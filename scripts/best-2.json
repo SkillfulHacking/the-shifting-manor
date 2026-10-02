@@ -1,0 +1,38 @@
+{
+ "score": 24.1,
+ "len": 9,
+ "noCandleLen": 999,
+ "steps": [
+  "use clock.s -> gallery.n",
+  "light gallery.n",
+  "use gallery.n -> cellar.e",
+  "light cellar.e",
+  "use cellar.e -> clock.e",
+  "use clock.s -> gallery.n",
+  "use gallery.n -> cellar.e",
+  "use cellar.e -> clock.e",
+  "use clock.e -> crypt.n"
+ ],
+ "cycles": {
+  "clock.e": [
+   "conservatory.e",
+   "crypt.n",
+   "library.s"
+  ],
+  "gallery.n": [
+   "cellar.e",
+   "conservatory.w",
+   "library.n"
+  ],
+  "cellar.e": [
+   "library.s",
+   "clock.e",
+   "gallery.n"
+  ],
+  "library.n": [
+   "kitchen.s",
+   "hall.w",
+   "gallery.w"
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "score": 2.6,
+ "len": 8,
+ "noCandleLen": 8,
+ "steps": [
+  "use mirrors.s -> hall.w",
+  "use hall.w -> library.e",
+  "light library.n",
+  "use library.n -> mirrors.s",
+  "use mirrors.s -> hall.w",
+  "use hall.w -> library.e",
+  "use library.n -> mirrors.s",
+  "use mirrors.e -> clock.s"
+ ],
+ "cycles": {
+  "mirrors.e": [
+   "library.n",
+   "conservatory.e",
+   "clock.s"
+  ],
+  "gallery.n": [
+   "hall.w",
+   "kitchen.s",
+   "library.n"
+  ],
+  "library.n": [
+   "mirrors.s",
+   "kitchen.w"
+  ]
+ }
+}

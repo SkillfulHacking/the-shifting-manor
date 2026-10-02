@@ -1,0 +1,76 @@
+{
+ "0": {
+  "hall.e": [
+   "dining.w",
+   "kitchen.w"
+  ],
+  "library.n": [
+   "kitchen.w",
+   "dining.e",
+   "mirrors.s"
+  ]
+ },
+ "1": {
+  "mirrors.e": [
+   "library.s",
+   "clock.s",
+   "hall.w"
+  ],
+  "gallery.n": [
+   "library.e",
+   "dining.e",
+   "kitchen.w"
+  ],
+  "library.n": [
+   "conservatory.w",
+   "mirrors.e",
+   "gallery.n"
+  ]
+ },
+ "2": {
+  "clock.e": [
+   "conservatory.e",
+   "crypt.n",
+   "library.s"
+  ],
+  "gallery.n": [
+   "cellar.e",
+   "conservatory.w",
+   "library.n"
+  ],
+  "cellar.e": [
+   "library.s",
+   "clock.e",
+   "gallery.n"
+  ],
+  "library.n": [
+   "kitchen.s",
+   "hall.w",
+   "gallery.w"
+  ]
+ },
+ "3": {},
+ "4": {
+  "upper.n": [
+   "library.n",
+   "cellar.e",
+   "gallery.e"
+  ],
+  "upper.w": [
+   "dining.e",
+   "library.e"
+  ],
+  "upper.e": [
+   "library.n",
+   "atticstair.s"
+  ],
+  "clock.e": [
+   "hall.w",
+   "gallery.e"
+  ],
+  "cellar.e": [
+   "library.s",
+   "upper.w"
+  ]
+ }
+}
