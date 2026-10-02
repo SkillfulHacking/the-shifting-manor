@@ -1,5 +1,7 @@
 # The Shifting Manor
 
+Play online: https://skillfulhacking.github.io/the-shifting-manor/
+
 A first-person supernatural puzzle game for the browser. It is Halloween night, the storm is loud, and the house you have just entered does not keep its doors. Rooms are nodes, doors are edges, and the graph is rewritten as the night goes on. Learn the rules of the house, then build a route to the attic before midnight.
 
 Built with **Three.js**, **TypeScript** and **Vite**. There are no image, model or audio files: every texture, prop, sound and note of music is generated procedurally at runtime.
